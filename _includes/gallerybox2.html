@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin-bottom: 5em;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 1em;
+  top: 1em;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 1em;
+  top: 1em;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  position: relative;
+  top: -2em;
+  text-align: center;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body class="bg-dark">
+<br>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 27</div>
+    <img src="img/portfolio/1.webp" style="width: 100%; max-width: 150em; max-height: 100em;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 27</div>
+    <img src="img/portfolio/2.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 27</div>
+    <img src="img/portfolio/3.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 27</div>
+    <img src="img/portfolio/4.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 27</div>
+    <img src="img/portfolio/5.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 27</div>
+    <img src="img/portfolio/6.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 27</div>
+    <img src="img/portfolio/7.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 27</div>
+    <img src="img/portfolio/8.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">9 / 27</div>
+    <img src="img/portfolio/9.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">10 / 27</div>
+    <img src="img/portfolio/10.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">11 / 27</div>
+    <img src="img/portfolio/11.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">12 / 27</div>
+    <img src="img/portfolio/12.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">13 / 27</div>
+    <img src="img/portfolio/13.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">14 / 27</div>
+    <img src="img/portfolio/14.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">15 / 27</div>
+    <img src="img/portfolio/15.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">16 / 27</div>
+    <img src="img/portfolio/16.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">17 / 27</div>
+    <img src="img/portfolio/17.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">18 / 27</div>
+    <img src="img/portfolio/18.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">19 / 27</div>
+    <img src="img/portfolio/19.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">20 / 27</div>
+    <img src="img/portfolio/20.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">21 / 27</div>
+    <img src="img/portfolio/21.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">22 / 27</div>
+    <img src="img/portfolio/22.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">23 / 27</div>
+    <img src="img/portfolio/23.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">24 / 27</div>
+    <img src="img/portfolio/24.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">25 / 27</div>
+    <img src="img/portfolio/25.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">26 / 27</div>
+    <img src="img/portfolio/26.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">27 / 27</div>
+    <img src="img/portfolio/27.webp" style="width: 100%; max-width: 150em; max-height: 100em">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+<!--   <div class="caption-container">
+    <p id="caption"></p>
+  </div> -->
+<hr class="gray"><hr class="gray"><hr class="gray">
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/1.webp" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/2.webp" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/3.webp" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/4.webp" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/5.webp" style="width:100%" onclick="currentSlide(5)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/6.webp" style="width:100%" onclick="currentSlide(6)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/7.webp" style="width:100%" onclick="currentSlide(7)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/8.webp" style="width:100%" onclick="currentSlide(8)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/9.webp" style="width:100%" onclick="currentSlide(9)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/10.webp" style="width:100%" onclick="currentSlide(10)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/11.webp" style="width:100%" onclick="currentSlide(11)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/12.webp" style="width:100%" onclick="currentSlide(12)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/13.webp" style="width:100%" onclick="currentSlide(13)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/14.webp" style="width:100%" onclick="currentSlide(14)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/15.webp" style="width:100%" onclick="currentSlide(15)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/16.webp" style="width:100%" onclick="currentSlide(16)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/17.webp" style="width:100%" onclick="currentSlide(17)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/18.webp" style="width:100%" onclick="currentSlide(18)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/19.webp" style="width:100%" onclick="currentSlide(19)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/20.webp" style="width:100%" onclick="currentSlide(20)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/21.webp" style="width:100%" onclick="currentSlide(21)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/22.webp" style="width:100%" onclick="currentSlide(22)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/23.webp" style="width:100%" onclick="currentSlide(23)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/24.webp" style="width:100%" onclick="currentSlide(24)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/25.webp" style="width:100%" onclick="currentSlide(25)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/26.webp" style="width:100%" onclick="currentSlide(26)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/portfolio/27.webp" style="width:100%" onclick="currentSlide(27)">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  // var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  // captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<hr class="gray"><hr class="gray">
+</body>
+</html>
